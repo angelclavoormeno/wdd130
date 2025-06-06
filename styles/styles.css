@@ -1,27 +1,37 @@
+:root {
+    --heading-background-color: darkgreen;
+    --heading-text-color: white;
+    --heading-fond: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid black;
+}
+
 nav {
-    background-color: darkblue;
-    padding: 10px;
+    background-color: var(--heading-background-color);
+    padding: var(--padding);
 }
 
 nav a {
-    color: white;
+    color: var(--heading-text-color);
     display: block;
-    padding: 20px;
+    padding: var(--padding);
+    font-family: var(--heading-fond);
 }
 
 h1 {
     color: darkblue;
+    font-family: var(--heading-fond);
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
-    padding: 2px;
+    border: var(--border);
+    padding: var(--padding);
     box-shadow: 0 0 30px gray;
 }
 
-p {padding: 0; }
+p {padding: var(--padding); font-family: var(--heading-fond);}
 
 main {
     max-width: 840px;
@@ -30,11 +40,12 @@ main {
 aside {
     width: 30rem;
     margin: 2rem;
-    border: 1px solid white;
-    padding: 2px;
-    background-color: darkred;
-    color: white;
+    border: var(--border);
+    padding: var(--padding);
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
     box-shadow: 0 0 30px black;
+    font-family: var(--heading-fond);
 }
 
 aside img {
@@ -46,4 +57,5 @@ footer {
     margin-top: 20px;
     border-top: 2px solid black;
     text-align:center;
+    font-family: var(--heading-fond);
 }
