@@ -49,6 +49,7 @@ main img {
     padding: var(--padding);
     box-shadow: 0 0 30px gray;
     float: right;
+    margin: 1rem;
 }
 
 p {padding: var(--padding); font-family: var(--heading-fond);}
