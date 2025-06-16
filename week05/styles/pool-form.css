@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Alumni Sans SC", sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    background: white;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    text-align: center;
+    color: black;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 5px solid darkgoldenrod;
+    border-radius: 0.5rem;
+    background-color: #42706f;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 2px solid darkgoldenrod;
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-style: oblique;
+}
+
+label, input, button, select, textarea {
+    font-family: "Oswald", sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    background-color: lightgray;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: darkgoldenrod;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+
+button:hover {
+    background-color: tomato;
+}
+
+footer {
+    margin: 1rem auto 0;
+    text-align: center;
+    color: black;
+    border-top: 1px solid black;
+    width: 650px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+}
