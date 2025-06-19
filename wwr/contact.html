@@ -60,9 +60,9 @@
             <fieldset>
                 <legend>Purpose</legend>
                 <div class="radio">
-                    <input type="radio" id="request" name="request" value="general">General Inquiry</input>
-                    <input type="radio" id="request" name="request" value="reservation">Reservation Question</input>
-                    <input type="radio" id="request" name="request" value="website">Website Suggestion</input>
+                    <input type="radio" id="general" name="general">General Inquiry</input>
+                    <input type="radio" id="reservation" name="reservation">Reservation Question</input>
+                    <input type="radio" id="website" name="website">Website Suggestion</input>
                 </div>
                 <label for="feedback">How can we help you?:</label>
                 <textarea id="feedback" name="feedback" rows="5" placeholder="Enter your request here"></textarea>
@@ -71,7 +71,8 @@
                     <input type="checkbox" id="newsletter" name="newsletter">
                 </div>
             </fieldset>
-            <button type="submit">Submit</button>
+            <label for="submitt">Don't forget to submitt your request!</label>
+            <button type="submit" id="submitt" name="submitt">Submit</button>
         </form>
     </main>
     <footer>
